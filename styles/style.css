@@ -101,6 +101,7 @@
   min-height: 20vh;
   width: 80%;
   align-items: center;
+  justify-content: space-between;
 }
 
 .two_columns__brief {
@@ -114,17 +115,23 @@
 }
 
 .two_columns__main-text {
-  width: 70%;
+  width: 80%;
   min-width: 784px;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  gap: 30px;
+  justify-content: stretch;
 }
 
 .two_columns__paragraph {
+  margin-top: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.two_columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .two_columns__span-accent {
