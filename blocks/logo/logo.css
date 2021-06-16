@@ -1,0 +1,13 @@
+.logo {
+  width: 183px;
+  height: 32px;
+  -webkit-transition: opacity 0.7s ease;
+  -moz-transition: opacity 0.7s ease;
+  -ms-transition: opacity 0.7s ease;
+  -o-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+  }  
+
+.logo:hover {
+  opacity: 0.4;
+}
